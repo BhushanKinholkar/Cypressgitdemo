@@ -21,6 +21,7 @@ describe('Data driven testing on cypress',function()
         cy.get('#txtUsername').type(this.data.aemail_vaild)
         cy.get('#txtPassword').type(this.data.bpass_invalid)
         cy.get('#btnLogin').click()
+        cy.title().should('eq','adefdfksfd sdhfkhsdkf')
 
     })
     
