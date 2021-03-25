@@ -1,10 +1,6 @@
 {
   
-  "aemail_vaild" : "fdfdfdf",
-  "bpass_invalid": "admin123"
-
-  
-
-  
+  "email" : "Admin",
+  "pass": "admin123"
 
 }
